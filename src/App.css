@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&family=Poppins:wght@500&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*============Navbar============*/
+.logo{
+    font-size: 1.6rem;
+}
+
+
+i{
+ cursor: pointer;
+}
+/*============Login/signup============*/
+.login_container{
+    margin-top: 1em;
+    width: 400px;
+    background-color: rgb(216, 42, 216);
+    padding: 3rem;
+    color: white;
+    font-weight: 500;
+}
+.login_container button{
+    width: 100%;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.acc{
+    color: blue;
+text-decoration: none;
+}
+/*============NoteItem============*/
+.noteBox{
+    background-color: rgb(37, 82, 82);
+    color: white;
+    border-radius: 20px;
+}
+.noteBox .d-flex h4{
+    flex: 1;
+    text-decoration: underline 2px;
+}
+.noteBox .tag{
+    display: flex;
+    align-items: center;
+}
+
+.noteBox .tag p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+    font-size: 1rem;
+    padding-top: .8rem;
+}
+.dropdown-menu{
+    padding: 10px;
+}
+.dropdown-menu li{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu i{
+    padding-right: 5px;
+}
+
+
+
