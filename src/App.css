@@ -14,11 +14,15 @@ i{
 /*============Login/signup============*/
 .login_container{
     margin-top: 1em;
-    width: 400px;
     background-color: rgb(216, 42, 216);
     padding: 3rem;
     color: white;
     font-weight: 500;
+}
+@media screen and (min-width:450px) {
+    .login_container{
+        width: 400px;
+    }
 }
 .login_container button{
     width: 100%;
