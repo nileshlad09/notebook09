@@ -26,7 +26,6 @@ export default function Navbar() {
   const logout = () => {
     localStorage.removeItem("token");
   };
-  console.log(user);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
